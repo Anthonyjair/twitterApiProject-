@@ -1,2 +1,2 @@
 # twitterApiProject-
-geo locate trends certain areas
+geo locate trends in certain areas
