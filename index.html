@@ -1,0 +1,55 @@
+<!-- this is for commenting-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> Ants Twitter App</title>
+<!-- Style -->
+	<link href="theLooks.css" rel="stylesheet" type="text/css" />
+	
+<!-- Translate Zip code into woied -->
+	<script type="text/javascript">
+	
+		
+		function interperateZipCode() {
+			
+			var imp1 = document.getElementById('zipCode').value;
+			var zip = 'http://where.yahooapis.com/v1/concordance/usps/'+imp1+';appid=[dj0yJmk9OGlybzNkQUJBaEprJmQ9WVdrOVZEaFJh	M2x3TTJNbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD03OQ--]';
+			console.log (imp1);		
+		}
+	
+	
+
+	</script>
+
+</head>
+
+<body>
+
+	<div id="wrapper">	
+
+		<header>
+			<p id="contentTxt">Ant's Twitter Api App</p>
+		</header>
+		
+		<nav>
+			<a>FirstLink</a>
+		</nav>
+	
+		<div id="content"> 
+			<input type="text" id="zipCode">ZipCode</input>
+			<button onclick="interperateZipCode()" id="interperateZipCode">Click Away!</button>
+		</div>
+
+		<footer>
+			
+		</footer>
+
+	</div>
+
+</body>
+
+
+
+</html>
